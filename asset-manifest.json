@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/room-homepage/static/css/main.0b6341b7.chunk.css",
+    "main.js": "/room-homepage/static/js/main.9348f05d.chunk.js",
+    "main.js.map": "/room-homepage/static/js/main.9348f05d.chunk.js.map",
+    "runtime-main.js": "/room-homepage/static/js/runtime-main.eae67198.js",
+    "runtime-main.js.map": "/room-homepage/static/js/runtime-main.eae67198.js.map",
+    "static/css/2.04c77faa.chunk.css": "/room-homepage/static/css/2.04c77faa.chunk.css",
+    "static/js/2.7d1113b7.chunk.js": "/room-homepage/static/js/2.7d1113b7.chunk.js",
+    "static/js/2.7d1113b7.chunk.js.map": "/room-homepage/static/js/2.7d1113b7.chunk.js.map",
+    "index.html": "/room-homepage/index.html",
+    "static/css/2.04c77faa.chunk.css.map": "/room-homepage/static/css/2.04c77faa.chunk.css.map",
+    "static/css/main.0b6341b7.chunk.css.map": "/room-homepage/static/css/main.0b6341b7.chunk.css.map",
+    "static/js/2.7d1113b7.chunk.js.LICENSE.txt": "/room-homepage/static/js/2.7d1113b7.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/room-homepage/static/media/OpenSans-Regular.1b0809d5.ttf",
+    "static/media/desktop-image-hero-1.91901d0d.jpg": "/room-homepage/static/media/desktop-image-hero-1.91901d0d.jpg",
+    "static/media/desktop-image-hero-2.9d354056.jpg": "/room-homepage/static/media/desktop-image-hero-2.9d354056.jpg",
+    "static/media/desktop-image-hero-3.05fd679a.jpg": "/room-homepage/static/media/desktop-image-hero-3.05fd679a.jpg",
+    "static/media/icon-angle-left.d53877df.svg": "/room-homepage/static/media/icon-angle-left.d53877df.svg",
+    "static/media/icon-angle-right.0ed3f81f.svg": "/room-homepage/static/media/icon-angle-right.0ed3f81f.svg",
+    "static/media/icon-close.3e88bd6e.svg": "/room-homepage/static/media/icon-close.3e88bd6e.svg",
+    "static/media/icon-hamburger.dc022bac.svg": "/room-homepage/static/media/icon-hamburger.dc022bac.svg",
+    "static/media/image-about-dark.329bbc44.jpg": "/room-homepage/static/media/image-about-dark.329bbc44.jpg",
+    "static/media/mobile-image-hero-1.5de3d147.jpg": "/room-homepage/static/media/mobile-image-hero-1.5de3d147.jpg",
+    "static/media/mobile-image-hero-2.51db290a.jpg": "/room-homepage/static/media/mobile-image-hero-2.51db290a.jpg",
+    "static/media/mobile-image-hero-3.601d0f37.jpg": "/room-homepage/static/media/mobile-image-hero-3.601d0f37.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eae67198.js",
+    "static/css/2.04c77faa.chunk.css",
+    "static/js/2.7d1113b7.chunk.js",
+    "static/css/main.0b6341b7.chunk.css",
+    "static/js/main.9348f05d.chunk.js"
+  ]
+}
