@@ -3,20 +3,6 @@
     src: url('assets/fonts/OpenSans-Regular.ttf');
 }
 
-.bg-dark {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: black;
-    z-index: 3;
-    top: 0;
-    opacity: .5;
-    display: none;
-}
-
-.bg-dark.active {
-    display: block;
-}
 
 * {
     margin: 0;
@@ -81,20 +67,24 @@ main .pitch .slide {
 
 main .pitch .slide .img,main .about .image {
 overflow: hidden;
+width: 100%;
+height: 100%;
 }
-main .pitch .slide img, .about img {
+main .pitch .slide img{
 transform: scale(1.4);
 filter:blur(5px)
 }
 main .pitch .cta{
     background: white;
+    visibility: hidden;
 }
 main .pitch .carousel-control {
     position: absolute;
-    bottom: -5px;
-    right: 30.5rem;
+    bottom: 0;
+    right: 34.99rem;
     z-index: 3;
 }
+
 
 main .pitch .carousel-control>div {
     height: 3.5rem;

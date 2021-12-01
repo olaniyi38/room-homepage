@@ -30,7 +30,7 @@ const App = () => {
   
   gsap.registerPlugin(ScrollTrigger)
   
-  const [isMobileScreen,setMobileScreen] = useState(true)
+  const [isMobileScreen,setMobileScreen] = useState(false)
   const [sideMenuActive,setSideMenuActive] = useState(false)
  
   let tl1 =gsap.timeline()
@@ -46,7 +46,11 @@ const App = () => {
    } 
 
     useEffect(() => {
-    tl1.from('.pitch .cta .title',{
+    tl1.to('main .pitch .cta',{
+      delay:.5,
+      visibility:'visible'
+    })
+    .from('.pitch .cta .title',{
       duration:2,
       opacity:0,
       x:20
@@ -80,11 +84,12 @@ const App = () => {
       scrollTrigger:{
         trigger:'.about .text',
         start:'top center',
-        markers:true
 
       }
     })
-            
+    window.addEventListener('DOMContentLoaded',()=>{
+      checkScreenWidth()
+    })        
     }, [])
   
     window.addEventListener('resize',()=>{
@@ -103,7 +108,7 @@ const App = () => {
 <>
   <Header activeDarkBg={toggleDarkBg} />
   <main>
-    <div className={`bg-dark ${ sideMenuActive && 'active' }`} onClick={toggleDarkBg}></div>
+    
     <section className="pitch">
       <Swiper navigation={{
          prevEl: navPrev.current,
